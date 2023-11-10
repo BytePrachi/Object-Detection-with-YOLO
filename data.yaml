@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['auto-rickshaw', 'bike', 'bus', 'car', 'tempo', 'traveller', 'truck']
+
+roboflow:
+  workspace: prachi-jain-8kpmw
+  project: object-detection-with-yolov8-gnfhx
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prachi-jain-8kpmw/object-detection-with-yolov8-gnfhx/dataset/2
